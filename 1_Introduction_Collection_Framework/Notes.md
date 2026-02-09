@@ -42,12 +42,16 @@
 Arrays are widely used in programming 👇
 
 1️⃣ Store **multiple values** using a single variable name ➝ reduces code complexity
+
 2️⃣ Used in **sorting algorithms** 🧠
    - Bubble Sort
    - Insertion Sort
    - Selection Sort
+
 3️⃣ Perform **matrix operations** ➕➖✖️
+
 4️⃣ Used in **CPU Scheduling algorithms** 🖥️
+
 5️⃣ Used to implement **data structures**:
    - Stack
    - ArrayList
