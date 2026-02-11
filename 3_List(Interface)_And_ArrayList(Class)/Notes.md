@@ -83,3 +83,42 @@
 
 ### 📝 Note :-
 ❗ There is **no way by which we can find the capacity of an ArrayList**.
+
+
+## 🧱 => Contructors of ArrayList :-
+
+1. ArrayList al=new ArrayList();
+  In this arraylist, an ArrayList collection object is created whose capacity is 10.
+
+2. ArrayList al=new ArrayList(int initialCapacity);
+ In this arraylist, an ArrayList object is created with provided initialCapacity.
+
+3. ArrayList al=new ArrayList(Collection c);
+ In this arraylist, another collection object is copied into new arraylist object.
+
+=====================================================================================================================================
+
+## ❓ =>  When we should use ArrayList ?
+Ans:  When we use retrival operation mostly (Retrival operation is fast in case of ArrayList because it implements RandomAccess interface).
+
+## 🚫 =>  When we should not use ArrayList ?
+Ans: When we have mostly insertion or deletion operation, then we should not use ArrayList.
+
+=====================================================================================================================================
+
+## 🎯 => RandomAccess interface :-
+-> RandomAccess interface is a marker interface that means it does not contain any methods or fields (variables).
+-> The purpose of RandomAccess interface is to retrieve any random element in collection object at the same speed. For example we 
+    have collection object having 1 crore elements, we have to search 3rd element or middle element or last element then it will search 
+    with the same speed.
+
+-> There are only 2 classes which inherits the RandomAccess interface.
+1. ArrayList
+2. Vector
+
+=====================================================================================================================================
+
+## 🧬 => Cloneable Interface :-
+-> Cloneable interface is also a marker interface.
+-> It was introduced in JDK 1.0 version.
+-> It is used to clone the object without using the new keyword.
