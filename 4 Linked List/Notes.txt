@@ -45,11 +45,12 @@
 6. public Object getLast()
 7. public Object removeFirst()
 8. public Object removeLast()
+
 -> When we should use LinkedList ?
-= LinkedList is best when we have to use insertion or deletion operations
++> LinkedList is best when we have to use insertion or deletion operations
 
 -> When we should not use LinkedList ?
-= LinkedList is worst in case of retrieval or searching operations (as LinkedList does not inherit RandomAccess interface)
++> LinkedList is worst in case of retrieval or searching operations (as LinkedList does not inherit RandomAccess interface)
 
 -> What is difference between ArrayList & LinkedList ?
 
