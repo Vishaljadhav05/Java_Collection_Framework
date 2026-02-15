@@ -7,6 +7,8 @@
 -> The underline data structure of LinkedList is Double Linked List or Circular Linked List.
 -> LinkedList was introduced in JDK 1.2 version.
 
+![alt text](Diagram.png)
+
 ## 🧩 -> Properties of LinkedList :-
     1. LinkedList is an index based Data Structure which means that first element will be inserted at 0 
         index position.
