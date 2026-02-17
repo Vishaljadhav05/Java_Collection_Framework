@@ -13,6 +13,9 @@
 
 ---
 
+![alt text](Cursor_Diagram.png)
+
+
 ## 🧭 Types of Cursors
 
 1️⃣ Enumeration
@@ -50,9 +53,19 @@ public Object nextElement();
 
 ### ❌ Limitations of Enumeration
 
-🚫 Works only with legacy classes (not universal)
-📖 Read-only (no update or remove)
-➡️ Forward direction only
+🚫 Works only with legacy classes (not universal).
+
+📖 Read-only (no update or remove).
+
+➡️ Forward direction only.
+
+![alt text](EnumerationDiag1.png)
+
+![alt text](EnumerationDiag2.png)
+
+![alt text](EnumerationDiag3.png)
+
+![alt text](EnumerationDiag4.png)
 
 ---
 
@@ -85,8 +98,9 @@ public void remove();
 
 ### ❌ Limitations of Iterator
 
-🚫 Cannot add or replace elements
-➡️ Forward direction only
+🚫 Cannot add or replace elements.
+
+➡️ Forward direction only.
 
 ---
 
@@ -138,7 +152,8 @@ public void set(Object obj);
 ### ❌ Limitations of ListIterator
 
 🚫 Works only with List implemented classes.
-❌ Not a universal cursor
+
+❌ Not a universal cursor.
 
 ---
 
