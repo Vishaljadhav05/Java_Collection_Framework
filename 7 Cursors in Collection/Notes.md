@@ -19,7 +19,9 @@
 ## 🧭 Types of Cursors
 
 1️⃣ Enumeration
+
 2️⃣ Iterator
+
 3️⃣ ListIterator
 
 ---
@@ -113,8 +115,9 @@ public void remove();
 
 ### ✅ Features
 
-🔄 Traverse in **forward & backward** directions
-✏️ Supports **read, remove, add, and replace** operations
+🔄 Traverse in **forward & backward** directions.
+
+✏️ Supports **read, remove, add, and replace** operations.
 
 ### ⚙️ How to Use ListIterator
 
