@@ -61,7 +61,7 @@
 1. HashSet internally works on the basis of Hashtable (it internally backed up by Map.).
 2. When we insert any element in HashSet, it stores as a key inside the Map and at value position PRESENT reference variable 
     is stored which is the reference variable of Object class.
-3. Initial capacity of HashSet is 16 elements.
+3. Initial capacity of HashSet is 16 elements. (because initial capacity of Map is also 16)
 4. Its load factor or fill ratio is 75%.
 5. After load is filled then a new Map is created with its double capacity.
 

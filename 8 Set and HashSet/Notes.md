@@ -28,6 +28,8 @@ Collection
                     └── TreeSet
 ```
 
+![alt text](Hierarchy.png)
+
 ---
 
 ## ✨ Properties of Set Interface
@@ -86,6 +88,9 @@ public class HashSet<E>
 - 📊 Load Factor: **0.75 (75%)**
 - 🔄 Capacity doubles after threshold
 
+
+![alt text](Internal_Working.png)
+
 ---
 
 ## ✨ Properties of HashSet
@@ -99,7 +104,7 @@ public class HashSet<E>
 7️⃣ Non-synchronized 🔓  
 8️⃣ Allows multiple threads 🧵  
 9️⃣ Supports parallel execution ⚡  
-🔟 Faster execution 🚀  
+🔟 Faster execution of Application 🚀  
 1️⃣1️⃣ Not thread-safe ❗  
 1️⃣2️⃣ No data consistency guarantee ⚠️
 
