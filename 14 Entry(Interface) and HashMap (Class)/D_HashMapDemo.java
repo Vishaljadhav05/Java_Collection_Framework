@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class HashMapDemo4
+public class D_HashMapDemo
 {
     public static void main(String[] args) 
     {
